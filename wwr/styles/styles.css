@@ -23,8 +23,13 @@ main {
     height: 725px;
 }
 
+#mountains {
+    height: 668px;
+    width: 700px;
+}
+
 body {
-    background-color: #bbb193;
+    background-color: white;
     color: #28536b;
 }
 
@@ -66,7 +71,8 @@ h4{
 
 .join{
     background-color:#bbb193;
-    color: #7ea8be;
+    color:#28536b;
+    ;
     text-decoration: none;
 }
 

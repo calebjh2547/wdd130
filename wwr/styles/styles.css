@@ -1,6 +1,45 @@
+/*
+CSS rules to specify families
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Roboto:wght@700&display=swap');
+
+
+/*
+  --primary-color: #28536b;
+  --secondary-color: #bbb193;
+  --accent1-color: #7ea8be;
+  --accent2-color: #573d1c;
+*/
+
+head {
+    font: fallback;
+}
+
+body{
+
+
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin: 0;
+}
 #content{
     max-width: 1600px;
     margin: 0 auto;
+    font-family: 'Noto Sans', sans-serif;
+}
+#logo{
+    padding-top: 5px;
+}
+
+#hero{
+    font-family: 'Roboto', sans-serif;
 }
 
 #hero-msg h1{
@@ -34,8 +73,9 @@ body {
 }
 
 header {
-    background-color:#573d1c;
+    background-color:#bbb193;
     color:#28536b;
+    font-family: 'Roboto', sans-serif;
 }
 
 nav a:hover {
@@ -47,21 +87,45 @@ nav a{
     text-align: center;
     color: #28536b;
     text-decoration: none;
+    padding: 35px;
 }
 
 .home-title{
     background-color:#573d1c;
     color: #7ea8be;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
     color:#28536b;
 }
 
+.card-img{
+    border: 10px solid #28536b;
+}
+
+.river-card{
+    margin: 200px 0;
+}
+
+.rapids-card{
+    margin: 200px 0;
+}
+
+.wildlife{
+    margin: 200px 0;
+}
+
 .book{
-    background-color: #28536b;
-    color: #bbb193;
+    background-color: #573d1c;
+    color: #7ea8be;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover{
@@ -72,8 +136,11 @@ h4{
 .join{
     background-color:#bbb193;
     color:#28536b;
-    ;
+    font-size: 18px;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover{
@@ -82,25 +149,34 @@ h4{
 }
 
 .msg{
-    background-color: #573d1c;
-    color: #7ea8be;
+    background-color: #bbb193;
+    color: #28536b;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2{
-    color: #7ea8be;
+    color: #28536b;
 }
 
 .msg p{
-    color: #7ea8be;
+    color: #28536b;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer{
     background-color: #bbb193;
     color: #28536b;
+    font-family: 'Roboto', sans-serif;
+    padding: 25px 50px;
+    
 }
 
 footer p {
     font-size: 1.2em; 
+    padding-top: 15px;
 }
 
 footer p a:hover {
@@ -123,8 +199,12 @@ footer a:hover{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
     width: 100%;
+}
+.social{
+    padding-top: 15px;
 }

@@ -16,9 +16,7 @@ font-family: 'Roboto', sans-serif;
 
 
 body{
-
-
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans', Arial, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -30,14 +28,14 @@ h2{
 #content{
     max-width: 1600px;
     margin: 0 auto;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans', Arial, sans-serif;
 }
 #logo{
     padding-top: 5px;
 }
 
 #hero{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 
 #hero-msg h1{
@@ -63,6 +61,8 @@ main {
 .mountains {
     height: 668px;
     width: 700px;
+    border: 10px solid #573d1c;
+
 }
 
 body {
@@ -132,8 +132,8 @@ h4{
 }
 
 .join{
-    background-color:#bbb193;
-    color:#28536b;
+    background-color:#573d1c;
+    color:#7ea8be;
     font-size: 18px;
     text-decoration: none;
     padding: 15px 30px;

@@ -248,6 +248,47 @@ footer a:hover{
 .social{
     padding-top: 15px;
 }
+
+/* Start of FAQ page*/
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Noto Sans', Arial, sans-serif;
+}
+
+#scenic-view{
+    font-family: 'Roboto', Arial, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#scenic-view-box{
+    grid-column: 1/4;
+    width: 100%;
+}
+
+#scenic-img{
+ width: 100%;
+}
+
+#faq-msg{
+    grid-column: 2/3;
+    grid-row: 2/4;
+    text-align: center;
+}
+.faq-title{
+    font-size: 100px;
+}
+
+.question1, .question2, 
+.question3, .question4, 
+.question5, .question6 {
+    background-color: #7ea8be;
+    color: black;
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -288,4 +329,6 @@ footer a:hover{
     footer {
         margin-top: 25px;
     }
+
+
 }
